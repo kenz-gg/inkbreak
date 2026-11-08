@@ -1,0 +1,22 @@
+import { test, expect } from '@playwright/test';
+test('remapping persists and arcade resumes the saved fighter and stage',async({page})=>{
+  await page.goto('/'); await page.locator('#settings').click();
+  const binding=page.locator('[data-side="0"][data-binding="right"]');
+  await binding.click(); await binding.press('e');
+  await expect(binding).toContainText('E');
+  await page.locator('#save-settings').click(); await page.reload();
+  await page.locator('#settings').click(); await expect(binding).toContainText('E');
+  await page.locator('#save-settings').click();
+  await page.locator('#arcade').click(); await page.locator('[data-fighter="1"]').click();
+  await expect(page.locator('#opponent')).toBeDisabled();
+  await page.locator('#start').click(); await expect(page.locator('canvas')).toBeVisible();
+  await expect.poll(()=>page.evaluate(()=>window.__inkbreak?.snapshot()?.phase)).toBe('fighting');
+  const before=await page.evaluate(()=>window.__inkbreak!.snapshot()!.fighters[0].x);
+  await page.keyboard.down('e'); await page.waitForTimeout(400); await page.keyboard.up('e');
+  expect(await page.evaluate(()=>window.__inkbreak!.snapshot()!.fighters[0].x)).toBeGreaterThan(before);
+  await page.keyboard.press('Escape'); await page.locator('#exit').click();
+  await page.reload(); await expect(page.locator('#arcade')).toContainText('Resume arcade');
+  await page.locator('#arcade').click();
+  await expect(page.locator('[data-fighter="1"]')).toHaveAttribute('aria-pressed','true');
+  await expect(page.locator('.match-card')).toContainText('BOUT 1 / 3');
+});

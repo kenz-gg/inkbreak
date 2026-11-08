@@ -1,0 +1,1534 @@
+{
+  "version": 1,
+  "license": "original in-workspace development art; see per-asset license fields",
+  "note": "Parametric/hand-authored development art. Final painted production art would replace these files one-for-one without changing the manifest contract (docs/character-art-prompts.md).",
+  "anchorStandards": {
+    "pose": {
+      "canvas": [
+        512,
+        640
+      ],
+      "anchor": [
+        256,
+        560
+      ]
+    },
+    "expression": {
+      "canvas": [
+        256,
+        256
+      ],
+      "anchor": [
+        128,
+        222
+      ]
+    },
+    "portrait": {
+      "canvas": [
+        300,
+        400
+      ],
+      "anchor": [
+        150,
+        400
+      ]
+    },
+    "effect": {
+      "canvas": [
+        512,
+        512
+      ],
+      "anchor": [
+        256,
+        300
+      ]
+    },
+    "construction": {
+      "canvas": [
+        560,
+        640
+      ],
+      "anchor": [
+        256,
+        560
+      ]
+    },
+    "silhouette-sheet": {
+      "canvas": [
+        1180,
+        640
+      ],
+      "anchor": [
+        256,
+        560
+      ]
+    }
+  },
+  "lighting": "key light upper-left; shadow band lower-right; rim highlight upper-left",
+  "characters": [
+    {
+      "id": "kaien",
+      "name": "Kaien",
+      "title": "Ember Wanderer",
+      "spec": "packages/asset-tools/character-specs/kaien.json",
+      "completion": {
+        "portrait": "development",
+        "poses": "development",
+        "expressions": "development",
+        "effects": "development",
+        "construction": "development",
+        "concept": "development"
+      },
+      "assets": [
+        {
+          "characterId": "kaien",
+          "kind": "portrait",
+          "name": "Portrait",
+          "source": "characters/kaien/portraits/kaien-portrait.svg",
+          "export": "assets/characters/kaien/portraits/kaien-portrait.svg",
+          "dimensions": [
+            300,
+            400
+          ],
+          "animation": null,
+          "license": "original hand-authored vector art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "kaien",
+          "kind": "pose",
+          "name": "Idle stance",
+          "source": "characters/kaien/animations/idle.svg",
+          "export": "assets/characters/kaien/animations/idle.svg",
+          "dimensions": [
+            512,
+            640
+          ],
+          "animation": "idle",
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "kaien",
+          "kind": "pose",
+          "name": "Walk cycle · frame 1",
+          "source": "characters/kaien/animations/walk-1.svg",
+          "export": "assets/characters/kaien/animations/walk-1.svg",
+          "dimensions": [
+            512,
+            640
+          ],
+          "animation": "walk",
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "kaien",
+          "kind": "pose",
+          "name": "Walk cycle · frame 2",
+          "source": "characters/kaien/animations/walk-2.svg",
+          "export": "assets/characters/kaien/animations/walk-2.svg",
+          "dimensions": [
+            512,
+            640
+          ],
+          "animation": "walk",
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "kaien",
+          "kind": "pose",
+          "name": "Run cycle · frame 1",
+          "source": "characters/kaien/animations/run-1.svg",
+          "export": "assets/characters/kaien/animations/run-1.svg",
+          "dimensions": [
+            512,
+            640
+          ],
+          "animation": "run",
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "kaien",
+          "kind": "pose",
+          "name": "Run cycle · frame 2",
+          "source": "characters/kaien/animations/run-2.svg",
+          "export": "assets/characters/kaien/animations/run-2.svg",
+          "dimensions": [
+            512,
+            640
+          ],
+          "animation": "run",
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "kaien",
+          "kind": "pose",
+          "name": "Jump tuck",
+          "source": "characters/kaien/animations/jump.svg",
+          "export": "assets/characters/kaien/animations/jump.svg",
+          "dimensions": [
+            512,
+            640
+          ],
+          "animation": "jump",
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "kaien",
+          "kind": "pose",
+          "name": "Dash burst",
+          "source": "characters/kaien/animations/dash.svg",
+          "export": "assets/characters/kaien/animations/dash.svg",
+          "dimensions": [
+            512,
+            640
+          ],
+          "animation": "dash",
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "kaien",
+          "kind": "pose",
+          "name": "Light attack · frame 1",
+          "source": "characters/kaien/animations/light-attack-1.svg",
+          "export": "assets/characters/kaien/animations/light-attack-1.svg",
+          "dimensions": [
+            512,
+            640
+          ],
+          "animation": "light-attack",
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "kaien",
+          "kind": "pose",
+          "name": "Light attack · frame 2",
+          "source": "characters/kaien/animations/light-attack-2.svg",
+          "export": "assets/characters/kaien/animations/light-attack-2.svg",
+          "dimensions": [
+            512,
+            640
+          ],
+          "animation": "light-attack",
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "kaien",
+          "kind": "pose",
+          "name": "Heavy attack · frame 1",
+          "source": "characters/kaien/animations/heavy-attack-1.svg",
+          "export": "assets/characters/kaien/animations/heavy-attack-1.svg",
+          "dimensions": [
+            512,
+            640
+          ],
+          "animation": "heavy-attack",
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "kaien",
+          "kind": "pose",
+          "name": "Heavy attack · frame 2",
+          "source": "characters/kaien/animations/heavy-attack-2.svg",
+          "export": "assets/characters/kaien/animations/heavy-attack-2.svg",
+          "dimensions": [
+            512,
+            640
+          ],
+          "animation": "heavy-attack",
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "kaien",
+          "kind": "pose",
+          "name": "Guard stance",
+          "source": "characters/kaien/animations/guard.svg",
+          "export": "assets/characters/kaien/animations/guard.svg",
+          "dimensions": [
+            512,
+            640
+          ],
+          "animation": "guard",
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "kaien",
+          "kind": "pose",
+          "name": "Hit reaction",
+          "source": "characters/kaien/animations/hit-reaction.svg",
+          "export": "assets/characters/kaien/animations/hit-reaction.svg",
+          "dimensions": [
+            512,
+            640
+          ],
+          "animation": "hit-reaction",
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "kaien",
+          "kind": "pose",
+          "name": "Skill pose",
+          "source": "characters/kaien/animations/skill.svg",
+          "export": "assets/characters/kaien/animations/skill.svg",
+          "dimensions": [
+            512,
+            640
+          ],
+          "animation": "skill",
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "kaien",
+          "kind": "pose",
+          "name": "Ultimate pose",
+          "source": "characters/kaien/animations/ultimate.svg",
+          "export": "assets/characters/kaien/animations/ultimate.svg",
+          "dimensions": [
+            512,
+            640
+          ],
+          "animation": "ultimate",
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "kaien",
+          "kind": "pose",
+          "name": "Victory pose",
+          "source": "characters/kaien/animations/victory.svg",
+          "export": "assets/characters/kaien/animations/victory.svg",
+          "dimensions": [
+            512,
+            640
+          ],
+          "animation": "victory",
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "kaien",
+          "kind": "pose",
+          "name": "Defeat pose",
+          "source": "characters/kaien/animations/defeat.svg",
+          "export": "assets/characters/kaien/animations/defeat.svg",
+          "dimensions": [
+            512,
+            640
+          ],
+          "animation": "defeat",
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "kaien",
+          "kind": "expression",
+          "name": "Neutral expression",
+          "source": "characters/kaien/expressions/neutral.svg",
+          "export": "assets/characters/kaien/expressions/neutral.svg",
+          "dimensions": [
+            256,
+            256
+          ],
+          "animation": null,
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "kaien",
+          "kind": "expression",
+          "name": "Focused expression",
+          "source": "characters/kaien/expressions/focused.svg",
+          "export": "assets/characters/kaien/expressions/focused.svg",
+          "dimensions": [
+            256,
+            256
+          ],
+          "animation": null,
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "kaien",
+          "kind": "expression",
+          "name": "Strained expression",
+          "source": "characters/kaien/expressions/strained.svg",
+          "export": "assets/characters/kaien/expressions/strained.svg",
+          "dimensions": [
+            256,
+            256
+          ],
+          "animation": null,
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "kaien",
+          "kind": "effect",
+          "name": "Trail effect stamp",
+          "source": "characters/kaien/effects/kaien-trail.svg",
+          "export": "assets/characters/kaien/effects/kaien-trail.svg",
+          "dimensions": [
+            512,
+            512
+          ],
+          "animation": null,
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "kaien",
+          "kind": "effect",
+          "name": "Impact effect stamp",
+          "source": "characters/kaien/effects/kaien-impact.svg",
+          "export": "assets/characters/kaien/effects/kaien-impact.svg",
+          "dimensions": [
+            512,
+            512
+          ],
+          "animation": null,
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "kaien",
+          "kind": "construction",
+          "name": "Construction reference",
+          "source": "characters/kaien/source/kaien-construction.svg",
+          "export": "assets/characters/kaien/source/kaien-construction.svg",
+          "dimensions": [
+            560,
+            640
+          ],
+          "animation": null,
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "kaien",
+          "kind": "concept",
+          "name": "Silhouette exploration sheet",
+          "source": "characters/kaien/concept/kaien-silhouettes.svg",
+          "export": "assets/characters/kaien/concept/kaien-silhouettes.svg",
+          "dimensions": [
+            1180,
+            640
+          ],
+          "animation": null,
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        }
+      ]
+    },
+    {
+      "id": "mira",
+      "name": "Mira",
+      "title": "Paper Dancer",
+      "spec": "packages/asset-tools/character-specs/mira.json",
+      "completion": {
+        "portrait": "development",
+        "poses": "development",
+        "expressions": "development",
+        "effects": "development",
+        "construction": "development",
+        "concept": "development"
+      },
+      "assets": [
+        {
+          "characterId": "mira",
+          "kind": "portrait",
+          "name": "Portrait",
+          "source": "characters/mira/portraits/mira-portrait.svg",
+          "export": "assets/characters/mira/portraits/mira-portrait.svg",
+          "dimensions": [
+            300,
+            400
+          ],
+          "animation": null,
+          "license": "original hand-authored vector art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "mira",
+          "kind": "pose",
+          "name": "Idle stance",
+          "source": "characters/mira/animations/idle.svg",
+          "export": "assets/characters/mira/animations/idle.svg",
+          "dimensions": [
+            512,
+            640
+          ],
+          "animation": "idle",
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "mira",
+          "kind": "pose",
+          "name": "Walk cycle · frame 1",
+          "source": "characters/mira/animations/walk-1.svg",
+          "export": "assets/characters/mira/animations/walk-1.svg",
+          "dimensions": [
+            512,
+            640
+          ],
+          "animation": "walk",
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "mira",
+          "kind": "pose",
+          "name": "Walk cycle · frame 2",
+          "source": "characters/mira/animations/walk-2.svg",
+          "export": "assets/characters/mira/animations/walk-2.svg",
+          "dimensions": [
+            512,
+            640
+          ],
+          "animation": "walk",
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "mira",
+          "kind": "pose",
+          "name": "Run cycle · frame 1",
+          "source": "characters/mira/animations/run-1.svg",
+          "export": "assets/characters/mira/animations/run-1.svg",
+          "dimensions": [
+            512,
+            640
+          ],
+          "animation": "run",
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "mira",
+          "kind": "pose",
+          "name": "Run cycle · frame 2",
+          "source": "characters/mira/animations/run-2.svg",
+          "export": "assets/characters/mira/animations/run-2.svg",
+          "dimensions": [
+            512,
+            640
+          ],
+          "animation": "run",
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "mira",
+          "kind": "pose",
+          "name": "Jump tuck",
+          "source": "characters/mira/animations/jump.svg",
+          "export": "assets/characters/mira/animations/jump.svg",
+          "dimensions": [
+            512,
+            640
+          ],
+          "animation": "jump",
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "mira",
+          "kind": "pose",
+          "name": "Dash burst",
+          "source": "characters/mira/animations/dash.svg",
+          "export": "assets/characters/mira/animations/dash.svg",
+          "dimensions": [
+            512,
+            640
+          ],
+          "animation": "dash",
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "mira",
+          "kind": "pose",
+          "name": "Light attack · frame 1",
+          "source": "characters/mira/animations/light-attack-1.svg",
+          "export": "assets/characters/mira/animations/light-attack-1.svg",
+          "dimensions": [
+            512,
+            640
+          ],
+          "animation": "light-attack",
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "mira",
+          "kind": "pose",
+          "name": "Light attack · frame 2",
+          "source": "characters/mira/animations/light-attack-2.svg",
+          "export": "assets/characters/mira/animations/light-attack-2.svg",
+          "dimensions": [
+            512,
+            640
+          ],
+          "animation": "light-attack",
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "mira",
+          "kind": "pose",
+          "name": "Heavy attack · frame 1",
+          "source": "characters/mira/animations/heavy-attack-1.svg",
+          "export": "assets/characters/mira/animations/heavy-attack-1.svg",
+          "dimensions": [
+            512,
+            640
+          ],
+          "animation": "heavy-attack",
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "mira",
+          "kind": "pose",
+          "name": "Heavy attack · frame 2",
+          "source": "characters/mira/animations/heavy-attack-2.svg",
+          "export": "assets/characters/mira/animations/heavy-attack-2.svg",
+          "dimensions": [
+            512,
+            640
+          ],
+          "animation": "heavy-attack",
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "mira",
+          "kind": "pose",
+          "name": "Guard stance",
+          "source": "characters/mira/animations/guard.svg",
+          "export": "assets/characters/mira/animations/guard.svg",
+          "dimensions": [
+            512,
+            640
+          ],
+          "animation": "guard",
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "mira",
+          "kind": "pose",
+          "name": "Hit reaction",
+          "source": "characters/mira/animations/hit-reaction.svg",
+          "export": "assets/characters/mira/animations/hit-reaction.svg",
+          "dimensions": [
+            512,
+            640
+          ],
+          "animation": "hit-reaction",
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "mira",
+          "kind": "pose",
+          "name": "Skill pose",
+          "source": "characters/mira/animations/skill.svg",
+          "export": "assets/characters/mira/animations/skill.svg",
+          "dimensions": [
+            512,
+            640
+          ],
+          "animation": "skill",
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "mira",
+          "kind": "pose",
+          "name": "Ultimate pose",
+          "source": "characters/mira/animations/ultimate.svg",
+          "export": "assets/characters/mira/animations/ultimate.svg",
+          "dimensions": [
+            512,
+            640
+          ],
+          "animation": "ultimate",
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "mira",
+          "kind": "pose",
+          "name": "Victory pose",
+          "source": "characters/mira/animations/victory.svg",
+          "export": "assets/characters/mira/animations/victory.svg",
+          "dimensions": [
+            512,
+            640
+          ],
+          "animation": "victory",
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "mira",
+          "kind": "pose",
+          "name": "Defeat pose",
+          "source": "characters/mira/animations/defeat.svg",
+          "export": "assets/characters/mira/animations/defeat.svg",
+          "dimensions": [
+            512,
+            640
+          ],
+          "animation": "defeat",
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "mira",
+          "kind": "expression",
+          "name": "Neutral expression",
+          "source": "characters/mira/expressions/neutral.svg",
+          "export": "assets/characters/mira/expressions/neutral.svg",
+          "dimensions": [
+            256,
+            256
+          ],
+          "animation": null,
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "mira",
+          "kind": "expression",
+          "name": "Focused expression",
+          "source": "characters/mira/expressions/focused.svg",
+          "export": "assets/characters/mira/expressions/focused.svg",
+          "dimensions": [
+            256,
+            256
+          ],
+          "animation": null,
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "mira",
+          "kind": "expression",
+          "name": "Strained expression",
+          "source": "characters/mira/expressions/strained.svg",
+          "export": "assets/characters/mira/expressions/strained.svg",
+          "dimensions": [
+            256,
+            256
+          ],
+          "animation": null,
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "mira",
+          "kind": "effect",
+          "name": "Fold effect stamp",
+          "source": "characters/mira/effects/mira-fold.svg",
+          "export": "assets/characters/mira/effects/mira-fold.svg",
+          "dimensions": [
+            512,
+            512
+          ],
+          "animation": null,
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "mira",
+          "kind": "effect",
+          "name": "Bloom effect stamp",
+          "source": "characters/mira/effects/mira-bloom.svg",
+          "export": "assets/characters/mira/effects/mira-bloom.svg",
+          "dimensions": [
+            512,
+            512
+          ],
+          "animation": null,
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "mira",
+          "kind": "construction",
+          "name": "Construction reference",
+          "source": "characters/mira/source/mira-construction.svg",
+          "export": "assets/characters/mira/source/mira-construction.svg",
+          "dimensions": [
+            560,
+            640
+          ],
+          "animation": null,
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "mira",
+          "kind": "concept",
+          "name": "Silhouette exploration sheet",
+          "source": "characters/mira/concept/mira-silhouettes.svg",
+          "export": "assets/characters/mira/concept/mira-silhouettes.svg",
+          "dimensions": [
+            1180,
+            640
+          ],
+          "animation": null,
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        }
+      ]
+    },
+    {
+      "id": "orun",
+      "name": "Orun",
+      "title": "Iron Sentinel",
+      "spec": "packages/asset-tools/character-specs/orun.json",
+      "completion": {
+        "portrait": "development",
+        "poses": "development",
+        "expressions": "development",
+        "effects": "development",
+        "construction": "development",
+        "concept": "development"
+      },
+      "assets": [
+        {
+          "characterId": "orun",
+          "kind": "portrait",
+          "name": "Portrait",
+          "source": "characters/orun/portraits/orun-portrait.svg",
+          "export": "assets/characters/orun/portraits/orun-portrait.svg",
+          "dimensions": [
+            300,
+            400
+          ],
+          "animation": null,
+          "license": "original hand-authored vector art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "orun",
+          "kind": "pose",
+          "name": "Idle stance",
+          "source": "characters/orun/animations/idle.svg",
+          "export": "assets/characters/orun/animations/idle.svg",
+          "dimensions": [
+            512,
+            640
+          ],
+          "animation": "idle",
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "orun",
+          "kind": "pose",
+          "name": "Walk cycle · frame 1",
+          "source": "characters/orun/animations/walk-1.svg",
+          "export": "assets/characters/orun/animations/walk-1.svg",
+          "dimensions": [
+            512,
+            640
+          ],
+          "animation": "walk",
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "orun",
+          "kind": "pose",
+          "name": "Walk cycle · frame 2",
+          "source": "characters/orun/animations/walk-2.svg",
+          "export": "assets/characters/orun/animations/walk-2.svg",
+          "dimensions": [
+            512,
+            640
+          ],
+          "animation": "walk",
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "orun",
+          "kind": "pose",
+          "name": "Run cycle · frame 1",
+          "source": "characters/orun/animations/run-1.svg",
+          "export": "assets/characters/orun/animations/run-1.svg",
+          "dimensions": [
+            512,
+            640
+          ],
+          "animation": "run",
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "orun",
+          "kind": "pose",
+          "name": "Run cycle · frame 2",
+          "source": "characters/orun/animations/run-2.svg",
+          "export": "assets/characters/orun/animations/run-2.svg",
+          "dimensions": [
+            512,
+            640
+          ],
+          "animation": "run",
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "orun",
+          "kind": "pose",
+          "name": "Jump tuck",
+          "source": "characters/orun/animations/jump.svg",
+          "export": "assets/characters/orun/animations/jump.svg",
+          "dimensions": [
+            512,
+            640
+          ],
+          "animation": "jump",
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "orun",
+          "kind": "pose",
+          "name": "Dash burst",
+          "source": "characters/orun/animations/dash.svg",
+          "export": "assets/characters/orun/animations/dash.svg",
+          "dimensions": [
+            512,
+            640
+          ],
+          "animation": "dash",
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "orun",
+          "kind": "pose",
+          "name": "Light attack · frame 1",
+          "source": "characters/orun/animations/light-attack-1.svg",
+          "export": "assets/characters/orun/animations/light-attack-1.svg",
+          "dimensions": [
+            512,
+            640
+          ],
+          "animation": "light-attack",
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "orun",
+          "kind": "pose",
+          "name": "Light attack · frame 2",
+          "source": "characters/orun/animations/light-attack-2.svg",
+          "export": "assets/characters/orun/animations/light-attack-2.svg",
+          "dimensions": [
+            512,
+            640
+          ],
+          "animation": "light-attack",
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "orun",
+          "kind": "pose",
+          "name": "Heavy attack · frame 1",
+          "source": "characters/orun/animations/heavy-attack-1.svg",
+          "export": "assets/characters/orun/animations/heavy-attack-1.svg",
+          "dimensions": [
+            512,
+            640
+          ],
+          "animation": "heavy-attack",
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "orun",
+          "kind": "pose",
+          "name": "Heavy attack · frame 2",
+          "source": "characters/orun/animations/heavy-attack-2.svg",
+          "export": "assets/characters/orun/animations/heavy-attack-2.svg",
+          "dimensions": [
+            512,
+            640
+          ],
+          "animation": "heavy-attack",
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "orun",
+          "kind": "pose",
+          "name": "Guard stance",
+          "source": "characters/orun/animations/guard.svg",
+          "export": "assets/characters/orun/animations/guard.svg",
+          "dimensions": [
+            512,
+            640
+          ],
+          "animation": "guard",
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "orun",
+          "kind": "pose",
+          "name": "Hit reaction",
+          "source": "characters/orun/animations/hit-reaction.svg",
+          "export": "assets/characters/orun/animations/hit-reaction.svg",
+          "dimensions": [
+            512,
+            640
+          ],
+          "animation": "hit-reaction",
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "orun",
+          "kind": "pose",
+          "name": "Skill pose",
+          "source": "characters/orun/animations/skill.svg",
+          "export": "assets/characters/orun/animations/skill.svg",
+          "dimensions": [
+            512,
+            640
+          ],
+          "animation": "skill",
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "orun",
+          "kind": "pose",
+          "name": "Ultimate pose",
+          "source": "characters/orun/animations/ultimate.svg",
+          "export": "assets/characters/orun/animations/ultimate.svg",
+          "dimensions": [
+            512,
+            640
+          ],
+          "animation": "ultimate",
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "orun",
+          "kind": "pose",
+          "name": "Victory pose",
+          "source": "characters/orun/animations/victory.svg",
+          "export": "assets/characters/orun/animations/victory.svg",
+          "dimensions": [
+            512,
+            640
+          ],
+          "animation": "victory",
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "orun",
+          "kind": "pose",
+          "name": "Defeat pose",
+          "source": "characters/orun/animations/defeat.svg",
+          "export": "assets/characters/orun/animations/defeat.svg",
+          "dimensions": [
+            512,
+            640
+          ],
+          "animation": "defeat",
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "orun",
+          "kind": "expression",
+          "name": "Neutral expression",
+          "source": "characters/orun/expressions/neutral.svg",
+          "export": "assets/characters/orun/expressions/neutral.svg",
+          "dimensions": [
+            256,
+            256
+          ],
+          "animation": null,
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "orun",
+          "kind": "expression",
+          "name": "Focused expression",
+          "source": "characters/orun/expressions/focused.svg",
+          "export": "assets/characters/orun/expressions/focused.svg",
+          "dimensions": [
+            256,
+            256
+          ],
+          "animation": null,
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "orun",
+          "kind": "expression",
+          "name": "Strained expression",
+          "source": "characters/orun/expressions/strained.svg",
+          "export": "assets/characters/orun/expressions/strained.svg",
+          "dimensions": [
+            256,
+            256
+          ],
+          "animation": null,
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "orun",
+          "kind": "effect",
+          "name": "Shock effect stamp",
+          "source": "characters/orun/effects/orun-shock.svg",
+          "export": "assets/characters/orun/effects/orun-shock.svg",
+          "dimensions": [
+            512,
+            512
+          ],
+          "animation": null,
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "orun",
+          "kind": "effect",
+          "name": "Dust effect stamp",
+          "source": "characters/orun/effects/orun-dust.svg",
+          "export": "assets/characters/orun/effects/orun-dust.svg",
+          "dimensions": [
+            512,
+            512
+          ],
+          "animation": null,
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "orun",
+          "kind": "construction",
+          "name": "Construction reference",
+          "source": "characters/orun/source/orun-construction.svg",
+          "export": "assets/characters/orun/source/orun-construction.svg",
+          "dimensions": [
+            560,
+            640
+          ],
+          "animation": null,
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "orun",
+          "kind": "concept",
+          "name": "Silhouette exploration sheet",
+          "source": "characters/orun/concept/orun-silhouettes.svg",
+          "export": "assets/characters/orun/concept/orun-silhouettes.svg",
+          "dimensions": [
+            1180,
+            640
+          ],
+          "animation": null,
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        }
+      ]
+    },
+    {
+      "id": "selka",
+      "name": "Selka",
+      "title": "Gale Runner",
+      "spec": "packages/asset-tools/character-specs/selka.json",
+      "completion": {
+        "portrait": "development",
+        "poses": "development",
+        "expressions": "development",
+        "effects": "development",
+        "construction": "development",
+        "concept": "development"
+      },
+      "assets": [
+        {
+          "characterId": "selka",
+          "kind": "portrait",
+          "name": "Portrait",
+          "source": "characters/selka/portraits/selka-portrait.svg",
+          "export": "assets/characters/selka/portraits/selka-portrait.svg",
+          "dimensions": [
+            300,
+            400
+          ],
+          "animation": null,
+          "license": "original hand-authored vector art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "selka",
+          "kind": "pose",
+          "name": "Idle stance",
+          "source": "characters/selka/animations/idle.svg",
+          "export": "assets/characters/selka/animations/idle.svg",
+          "dimensions": [
+            512,
+            640
+          ],
+          "animation": "idle",
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "selka",
+          "kind": "pose",
+          "name": "Walk cycle · frame 1",
+          "source": "characters/selka/animations/walk-1.svg",
+          "export": "assets/characters/selka/animations/walk-1.svg",
+          "dimensions": [
+            512,
+            640
+          ],
+          "animation": "walk",
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "selka",
+          "kind": "pose",
+          "name": "Walk cycle · frame 2",
+          "source": "characters/selka/animations/walk-2.svg",
+          "export": "assets/characters/selka/animations/walk-2.svg",
+          "dimensions": [
+            512,
+            640
+          ],
+          "animation": "walk",
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "selka",
+          "kind": "pose",
+          "name": "Run cycle · frame 1",
+          "source": "characters/selka/animations/run-1.svg",
+          "export": "assets/characters/selka/animations/run-1.svg",
+          "dimensions": [
+            512,
+            640
+          ],
+          "animation": "run",
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "selka",
+          "kind": "pose",
+          "name": "Run cycle · frame 2",
+          "source": "characters/selka/animations/run-2.svg",
+          "export": "assets/characters/selka/animations/run-2.svg",
+          "dimensions": [
+            512,
+            640
+          ],
+          "animation": "run",
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "selka",
+          "kind": "pose",
+          "name": "Jump tuck",
+          "source": "characters/selka/animations/jump.svg",
+          "export": "assets/characters/selka/animations/jump.svg",
+          "dimensions": [
+            512,
+            640
+          ],
+          "animation": "jump",
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "selka",
+          "kind": "pose",
+          "name": "Dash burst",
+          "source": "characters/selka/animations/dash.svg",
+          "export": "assets/characters/selka/animations/dash.svg",
+          "dimensions": [
+            512,
+            640
+          ],
+          "animation": "dash",
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "selka",
+          "kind": "pose",
+          "name": "Light attack · frame 1",
+          "source": "characters/selka/animations/light-attack-1.svg",
+          "export": "assets/characters/selka/animations/light-attack-1.svg",
+          "dimensions": [
+            512,
+            640
+          ],
+          "animation": "light-attack",
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "selka",
+          "kind": "pose",
+          "name": "Light attack · frame 2",
+          "source": "characters/selka/animations/light-attack-2.svg",
+          "export": "assets/characters/selka/animations/light-attack-2.svg",
+          "dimensions": [
+            512,
+            640
+          ],
+          "animation": "light-attack",
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "selka",
+          "kind": "pose",
+          "name": "Heavy attack · frame 1",
+          "source": "characters/selka/animations/heavy-attack-1.svg",
+          "export": "assets/characters/selka/animations/heavy-attack-1.svg",
+          "dimensions": [
+            512,
+            640
+          ],
+          "animation": "heavy-attack",
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "selka",
+          "kind": "pose",
+          "name": "Heavy attack · frame 2",
+          "source": "characters/selka/animations/heavy-attack-2.svg",
+          "export": "assets/characters/selka/animations/heavy-attack-2.svg",
+          "dimensions": [
+            512,
+            640
+          ],
+          "animation": "heavy-attack",
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "selka",
+          "kind": "pose",
+          "name": "Guard stance",
+          "source": "characters/selka/animations/guard.svg",
+          "export": "assets/characters/selka/animations/guard.svg",
+          "dimensions": [
+            512,
+            640
+          ],
+          "animation": "guard",
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "selka",
+          "kind": "pose",
+          "name": "Hit reaction",
+          "source": "characters/selka/animations/hit-reaction.svg",
+          "export": "assets/characters/selka/animations/hit-reaction.svg",
+          "dimensions": [
+            512,
+            640
+          ],
+          "animation": "hit-reaction",
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "selka",
+          "kind": "pose",
+          "name": "Skill pose",
+          "source": "characters/selka/animations/skill.svg",
+          "export": "assets/characters/selka/animations/skill.svg",
+          "dimensions": [
+            512,
+            640
+          ],
+          "animation": "skill",
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "selka",
+          "kind": "pose",
+          "name": "Ultimate pose",
+          "source": "characters/selka/animations/ultimate.svg",
+          "export": "assets/characters/selka/animations/ultimate.svg",
+          "dimensions": [
+            512,
+            640
+          ],
+          "animation": "ultimate",
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "selka",
+          "kind": "pose",
+          "name": "Victory pose",
+          "source": "characters/selka/animations/victory.svg",
+          "export": "assets/characters/selka/animations/victory.svg",
+          "dimensions": [
+            512,
+            640
+          ],
+          "animation": "victory",
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "selka",
+          "kind": "pose",
+          "name": "Defeat pose",
+          "source": "characters/selka/animations/defeat.svg",
+          "export": "assets/characters/selka/animations/defeat.svg",
+          "dimensions": [
+            512,
+            640
+          ],
+          "animation": "defeat",
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "selka",
+          "kind": "expression",
+          "name": "Neutral expression",
+          "source": "characters/selka/expressions/neutral.svg",
+          "export": "assets/characters/selka/expressions/neutral.svg",
+          "dimensions": [
+            256,
+            256
+          ],
+          "animation": null,
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "selka",
+          "kind": "expression",
+          "name": "Focused expression",
+          "source": "characters/selka/expressions/focused.svg",
+          "export": "assets/characters/selka/expressions/focused.svg",
+          "dimensions": [
+            256,
+            256
+          ],
+          "animation": null,
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "selka",
+          "kind": "expression",
+          "name": "Strained expression",
+          "source": "characters/selka/expressions/strained.svg",
+          "export": "assets/characters/selka/expressions/strained.svg",
+          "dimensions": [
+            256,
+            256
+          ],
+          "animation": null,
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "selka",
+          "kind": "effect",
+          "name": "Swirl effect stamp",
+          "source": "characters/selka/effects/selka-swirl.svg",
+          "export": "assets/characters/selka/effects/selka-swirl.svg",
+          "dimensions": [
+            512,
+            512
+          ],
+          "animation": null,
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "selka",
+          "kind": "effect",
+          "name": "Cut effect stamp",
+          "source": "characters/selka/effects/selka-cut.svg",
+          "export": "assets/characters/selka/effects/selka-cut.svg",
+          "dimensions": [
+            512,
+            512
+          ],
+          "animation": null,
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "selka",
+          "kind": "construction",
+          "name": "Construction reference",
+          "source": "characters/selka/source/selka-construction.svg",
+          "export": "assets/characters/selka/source/selka-construction.svg",
+          "dimensions": [
+            560,
+            640
+          ],
+          "animation": null,
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        },
+        {
+          "characterId": "selka",
+          "kind": "concept",
+          "name": "Silhouette exploration sheet",
+          "source": "characters/selka/concept/selka-silhouettes.svg",
+          "export": "assets/characters/selka/concept/selka-silhouettes.svg",
+          "dimensions": [
+            1180,
+            640
+          ],
+          "animation": null,
+          "license": "original parametric development art, authored in this workspace",
+          "status": "development"
+        }
+      ]
+    }
+  ]
+}

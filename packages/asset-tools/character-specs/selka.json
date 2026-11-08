@@ -1,0 +1,44 @@
+{
+  "id": "selka",
+  "name": "Selka",
+  "title": "Gale Runner",
+  "hair": "gale-ponytail",
+  "face": "open",
+  "chestKind": "wrap",
+  "boots": "wrap",
+  "cloth": "gale-cape",
+  "weapon": "twin-blades",
+  "costume": { "sash": true },
+  "effects": ["swirl", "cut"],
+  "prop": { "height": 396, "heads": 7.8, "bulk": 0.9, "shoulder": 0.9, "hipW": 0.96, "waist": 0.9, "armWidth": 0.88, "legWidth": 0.94, "footPrint": 0.92 },
+  "palette": {
+    "outline": "#2a2b1c",
+    "skin": "#eec39d",
+    "skinShade": "#cc9370",
+    "hair": "#4f5230",
+    "hairShade": "#383a22",
+    "hairLit": "#6f7346",
+    "main": "#9db06f",
+    "mainLit": "#c2cf97",
+    "mainShade": "#6d7c48",
+    "accent": "#f4e7c8",
+    "accentLit": "#fff3d3",
+    "trim": "#8a6a3a",
+    "under": "#5b5a33",
+    "signature": "#e8d9a0",
+    "shadowGround": "#25261c"
+  },
+  "poses": {
+    "jump": { "base": { "air": 168, "lean": 8, "lift": { "front": 78, "back": 64 } } },
+    "dash": { "base": { "lean": 33, "crouch": 14 } },
+    "run": {
+      "base": { "wind": 1.0 },
+      "frames": [
+        { "lean": 15 },
+        { "lean": 17 }
+      ]
+    },
+    "victory": { "base": { "weapon": "act", "wind": 0.9 } },
+    "defeat": { "base": { "weapon": "ready", "wind": 0.2 } }
+  }
+}

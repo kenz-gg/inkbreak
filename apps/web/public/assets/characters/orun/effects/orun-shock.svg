@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" data-anchor="256,300" data-asset="effect" data-effect="orun-shock">
+<!-- Orun (orun) shock effect stamp · generated development art; anchor (256,300) approximates the fighter's chest -->
+<polyline points="256,340 256,306 256,346" fill="none" stroke="#b0683a" stroke-width="4" stroke-linecap="round" stroke-opacity="0.85"/>
+<polyline points="256,340 302.2,318.3 323.8,343.2" fill="none" stroke="#b0683a" stroke-width="4" stroke-linecap="round" stroke-opacity="0.85"/>
+<polyline points="256,340 314.9,333.6 342.4,337.5" fill="none" stroke="#b0683a" stroke-width="4" stroke-linecap="round" stroke-opacity="0.85"/>
+<polyline points="256,340 284.9,310.2 298.4,334.1" fill="none" stroke="#b0683a" stroke-width="4" stroke-linecap="round" stroke-opacity="0.85"/>
+<polyline points="256,340 233.9,308.4 223.6,336.1" fill="none" stroke="#b0683a" stroke-width="4" stroke-linecap="round" stroke-opacity="0.85"/>
+<path d="M214 338L300 340L286 358L230 356Z" fill="#5c626d" fill-opacity="0.5"/>
+<ellipse cx="206" cy="352" rx="4" ry="3.4" fill="#544e45" fill-opacity="0.8"/>
+<ellipse cx="238" cy="360" rx="6.4" ry="3.4" fill="#544e45" fill-opacity="0.8"/>
+<ellipse cx="270" cy="352" rx="4" ry="3.4" fill="#544e45" fill-opacity="0.8"/>
+<ellipse cx="302" cy="360" rx="6.4" ry="3.4" fill="#544e45" fill-opacity="0.8"/>
+</svg>

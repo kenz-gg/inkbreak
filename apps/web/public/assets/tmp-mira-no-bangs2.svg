@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" data-anchor="128,222" data-asset="expression" data-expression="neutral">
+<!-- Mira (mira) neutral expression bust · generated development art; key light upper-left -->
+<path d="M81.5 93.9L57.3 286.1L109.4 264.4L124.9 298.5L146.6 276.8L156.5 118.1L151.6 83.4L129.2 71Z" fill="#2f2b38" stroke="#2b2733" stroke-width="1.1" stroke-linejoin="round"/>
+<path d="M85.8 162.1L73.4 276.8L105.7 245.8L119.9 177.6Z" fill="#211d29"/>
+<polyline points="90.8,100.1 77.2,239.6" fill="none" stroke="#4d4759" stroke-opacity=".5" stroke-width="2" stroke-linecap="round"/>
+<path d="M89.6 79.6L160.2 75.3L173.9 134.2L152.8 174.5L110.6 180.7L84.6 139.2Z" fill="#f1d5bd" stroke="#2b2733" stroke-width="1.1" stroke-linejoin="round"/>
+<path d="M173.9 131.1L155.9 171.4L137.3 177.6L149.1 140.4Z" fill="#d4a98c" fill-opacity="0.45"/>
+<line x1="155.3" y1="126.8" x2="136.7" y2="129.2" stroke="#2b2733" stroke-width="9.3" stroke-linecap="round"/>
+<line x1="129.2" y1="129.2" x2="114.4" y2="129.7" stroke="#2b2733" stroke-width="8.1" stroke-linecap="round"/>
+<line x1="136.7" y1="156.5" x2="146.6" y2="157.8" stroke="#2b2733" stroke-opacity=".8" stroke-width="4.3" stroke-linecap="round"/>
+<path d="M83.4 97L145.4 69.1L170.2 103.2L146.6 97L121.8 88.3Z" fill="#2f2b38" stroke="#2b2733" stroke-width="1.1" stroke-linejoin="round"/>
+<path d="M71 104.4L104.4 59.8L162.1 66L152.8 93.9L102 83.4Z" fill="#211d29"/>
+<path d="M70 214L128 196L186 214L186 256L70 256Z" fill="#f3ecdd" stroke="#2b2733" stroke-width="1.1" stroke-linejoin="round"/>
+</svg>

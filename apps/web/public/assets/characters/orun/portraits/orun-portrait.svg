@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="400" viewBox="0 0 300 400" data-anchor="150,400" data-asset="portrait">
+<title>Orun — Iron Sentinel, illustrated vector study</title>
+<defs>
+ <linearGradient id="plate" x2=".35" y2="1"><stop stop-color="#79808d"/><stop offset=".55" stop-color="#565d69"/><stop offset="1" stop-color="#3a3f49"/></linearGradient>
+ <linearGradient id="plateDark" x2=".6" y2="1"><stop stop-color="#616874"/><stop offset=".6" stop-color="#41464f"/><stop offset="1" stop-color="#2e323a"/></linearGradient>
+ <linearGradient id="copper" x2="1" y2=".35"><stop stop-color="#d29a5c"/><stop offset=".55" stop-color="#a5703c"/><stop offset="1" stop-color="#6f4526"/></linearGradient>
+ <linearGradient id="skin" x2=".8" y2=".7"><stop stop-color="#dfb087"/><stop offset=".6" stop-color="#c08a63"/><stop offset="1" stop-color="#8e6045"/></linearGradient>
+ <linearGradient id="cloth" x2=".5" y2="1"><stop stop-color="#837b6a"/><stop offset=".6" stop-color="#5f584c"/><stop offset="1" stop-color="#403b32"/></linearGradient>
+ <pattern id="plateSheen" width="9" height="9" patternUnits="userSpaceOnUse"><path d="M0 2h9M2 0v9" stroke="#aab3bf" opacity=".12" stroke-width=".6"/></pattern>
+</defs>
+<g stroke="#2e2b25" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round">
+ <!-- Tower shield, strapped at his right hand: the sentinel's own wall. -->
+ <path d="M219 118L285 126 288 372 231 380Z" fill="url(#plateDark)"/>
+ <path d="M231 126L281 132 283 366 237 372Z" fill="url(#plate)" stroke="none"/>
+ <path d="M231 126L281 132 283 366 237 372Z" fill="url(#plateSheen)" stroke="none"/>
+ <path d="M219 118L231 126 237 372 231 380Z" fill="url(#copper)" stroke-width="1.4"/>
+ <path d="M255 130V368" stroke="#98a1ac" stroke-opacity=".5" fill="none"/>
+ <path d="M238 210 250 224 234 238 226 222Z" fill="none" stroke="#7a5030" stroke-opacity=".7" stroke-width="1.2"/>
+ <g fill="#b8864e" stroke="#6f4526" stroke-width="1.1">
+  <circle cx="230" cy="140" r="2.6"/><circle cx="278" cy="146" r="2.6"/><circle cx="230" cy="358" r="2.6"/><circle cx="279" cy="354" r="2.6"/><circle cx="255" cy="136" r="2.4"/><circle cx="255" cy="364" r="2.4"/>
+ </g>
+ <!-- Grip hand over the shield rim. -->
+ <path d="M222 232L243 226 249 240 245 252 226 254 219 244Z" fill="url(#skin)"/>
+ <path d="M226 236L241 232M227 243L242 240M228 249L240 247" stroke="#8e6045" stroke-width="1" fill="none"/>
+ <path d="M214 226L227 220 233 234 231 246 219 250 212 240Z" fill="url(#copper)"/>
+ <!-- Far arm behind the cuirass; hint of the vambrace. -->
+ <path d="M96 158L72 176 66 214 74 244 96 250 104 210Z" fill="url(#plateDark)"/>
+ <path d="M70 208L98 214M72 226L96 232" stroke="#9aa3ae" stroke-opacity=".45" fill="none"/>
+ <!-- Field tunic under the plate: heavy stone-colored weave with a hem. -->
+ <path d="M108 152L190 148 200 252 196 306 92 312 100 236Z" fill="url(#cloth)"/>
+ <path d="M92 312L196 306 200 326 94 332Z" fill="#4a4438"/>
+ <path d="M104 176L186 170M100 206L192 198M98 240L194 230" stroke="#38332b" stroke-opacity=".4" fill="none"/>
+ <!-- Cuirass: two folded plates, copper ridge, crenel emblem. -->
+ <path d="M110 150L188 146 194 190 188 236 176 250 116 252 104 208Z" fill="url(#plate)"/>
+ <path d="M110 150L188 146 194 190 188 236 176 250 116 252 104 208Z" fill="url(#plateSheen)" stroke="none"/>
+ <path d="M149 148L151 250" stroke="url(#copper)" stroke-width="5" fill="none"/>
+ <path d="M114 158L184 154M108 186L192 180M110 216L190 210" stroke="#98a1ac" stroke-opacity=".35" fill="none"/>
+ <path d="M188 146L194 190 188 236 176 250 186 246 194 224 197 192Z" fill="#2e323a" stroke="none"/>
+ <!-- Crenellated tower sigil, the Fold's watchmark. -->
+ <path d="M128 190V214H166V190L158 190V198L150 198V190L142 190V198L134 198V190Z" fill="#b8864e" stroke="#6f4526" stroke-width="1.3"/>
+ <path d="M140 206L160 206" stroke="#e2b476" stroke-width="2"/>
+ <!-- Leather cross-strap and iron buckle -->
+ <path d="M108 156L180 244 172 254 100 168Z" fill="#3c3029"/>
+ <path d="M104 166L176 250" stroke="#8a6a3f" stroke-width="2" fill="none"/>
+ <path d="M162 234L182 242 190 230 172 222Z" fill="#565f6a" stroke="#2e2b25" stroke-width="1.4"/>
+ <path d="M170 236L182 242" stroke="#98a1ac" stroke-width="2"/>
+ <!-- Pauldrons: three stacked plates with copper rims. -->
+ <path d="M92 138L136 132 142 158 118 166 96 160Z" fill="url(#plate)"/>
+ <path d="M88 158L140 150 144 174 112 182 90 176Z" fill="url(#plateDark)"/>
+ <path d="M86 176L142 168 146 192 110 200 88 192Z" fill="url(#plate)"/>
+ <path d="M86 176L142 168" stroke="url(#copper)" stroke-width="2.6" fill="none"/>
+ <path d="M218 132L182 128 176 154 200 162 222 156Z" fill="url(#plateDark)"/>
+ <path d="M222 154L178 148 174 172 204 180 226 172Z" fill="url(#plate)"/>
+ <path d="M224 172L176 166" stroke="url(#copper)" stroke-width="2.6" fill="none"/>
+ <g fill="#b8864e" stroke="#6f4526" stroke-width="1"><circle cx="110" cy="146" r="1.8"/><circle cx="204" cy="141" r="1.8"/><circle cx="198" cy="176" r="1.8"/><circle cx="112" cy="184" r="1.6"/></g>
+ <!-- Neck gorget -->
+ <path d="M128 120L170 118 174 140 126 142Z" fill="url(#plate)"/>
+ <!-- Broad head: heavy jaw, sentinel crop, copper visor -->
+ <path d="M124 60L172 60 182 82 184 104 176 122 150 130 126 120 116 100 118 80Z" fill="url(#skin)"/>
+ <path d="M170 118L176 122 170 126 158 128Z" fill="#8e6045" stroke="none"/>
+ <path d="M164 124Q152 132 138 128" fill="none" stroke="#6d4433" stroke-width="1.2"/>
+ <path d="M118 66L180 58 184 80 176 76 168 62 150 58 132 64 122 74Z" fill="#403a33"/>
+ <path d="M120 62L182 60 186 78 174 70 158 62Z" fill="#2c2823"/>
+ <path d="M116 96Q110 84 118 78L120 96ZM182 94Q188 84 180 78L178 94Z" fill="#403a33" stroke-width="1.2"/>
+ <path d="M120 78L182 74 184 96 178 100 128 102 120 98Z" fill="url(#copper)"/>
+ <path d="M126 88L176 86" stroke="#e9b878" stroke-width="2.6" fill="none"/>
+ <path d="M128 92L172 90" stroke="#57361d" stroke-width="1.4" fill="none"/>
+ <path d="M146 116L158 114" fill="none" stroke="#7c4c36" stroke-width="2.6"/>
+</g>
+<!-- Ambient: forged sparks settle around the wall. -->
+<g stroke="none"><circle cx="52" cy="330" r="2.4" fill="#d29a5c" opacity=".8"/><circle cx="196" cy="356" r="1.8" fill="#8a93a0" opacity=".8"/><circle cx="64" cy="288" r="1.4" fill="#a5703c" opacity=".7"/><circle cx="206" cy="96" r="1.6" fill="#d29a5c" opacity=".55"/></g>
+</svg>

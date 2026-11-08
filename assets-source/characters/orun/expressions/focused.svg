@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" data-anchor="128,222" data-asset="expression" data-expression="focused">
+<!-- Orun (orun) focused expression bust · generated development art; key light upper-left -->
+<path d="M75.3 109.4L177.6 93.9L159 56.7L90.8 59.8Z" fill="#33362c" stroke="#23272d" stroke-width="1.1" stroke-linejoin="round"/>
+<line x1="97" y1="135.4" x2="124.9" y2="93.9" stroke="#23251e" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M89.6 79.6L160.2 75.3L173.9 134.2L152.8 174.5L110.6 180.7L84.6 139.2Z" fill="#d9ac85" stroke="#23272d" stroke-width="1.1" stroke-linejoin="round"/>
+<path d="M173.9 131.1L155.9 171.4L137.3 177.6L149.1 140.4Z" fill="#b3815e" fill-opacity="0.45"/>
+<path d="M89.6 95.8L167.7 93.3L160.2 135.4L93.3 137.9Z" fill="#b0683a" stroke="#23272d" stroke-width="1.1" stroke-linejoin="round"/>
+<line x1="102" y1="129.2" x2="155.3" y2="126.8" stroke="#d69063" stroke-opacity=".85" stroke-width="6.2" stroke-linecap="round"/>
+<path d="M129.2 155.3 q 11.2 8.7 22.3 0" fill="none" stroke="#23272d" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M83.4 102L162.1 97L145.4 118.1L102 120.6Z" fill="#33362c" stroke="#23272d" stroke-width="1.1" stroke-linejoin="round"/>
+<path d="M71 100.7L104.4 58.6L162.1 64.8L154 75.9L102 74.7Z" fill="#23251e"/>
+<path d="M70 214L128 196L186 214L186 256L70 256Z" fill="#776f60" stroke="#23272d" stroke-width="1.1" stroke-linejoin="round"/>
+</svg>

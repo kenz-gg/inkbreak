@@ -1,0 +1,56 @@
+{
+  "canvas": [
+    512,
+    640
+  ],
+  "anchor": [
+    256,
+    560
+  ],
+  "portrait": "orun-portrait.svg",
+  "frames": {
+    "dash": [
+      "dash.svg"
+    ],
+    "defeat": [
+      "defeat.svg"
+    ],
+    "guard": [
+      "guard.svg"
+    ],
+    "heavy-attack": [
+      "heavy-attack-1.svg",
+      "heavy-attack-2.svg"
+    ],
+    "hit-reaction": [
+      "hit-reaction.svg"
+    ],
+    "idle": [
+      "idle.svg"
+    ],
+    "jump": [
+      "jump.svg"
+    ],
+    "light-attack": [
+      "light-attack-1.svg",
+      "light-attack-2.svg"
+    ],
+    "run": [
+      "run-1.svg",
+      "run-2.svg"
+    ],
+    "skill": [
+      "skill.svg"
+    ],
+    "ultimate": [
+      "ultimate.svg"
+    ],
+    "victory": [
+      "victory.svg"
+    ],
+    "walk": [
+      "walk-1.svg",
+      "walk-2.svg"
+    ]
+  }
+}

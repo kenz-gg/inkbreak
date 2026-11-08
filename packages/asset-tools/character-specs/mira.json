@@ -1,0 +1,45 @@
+{
+  "id": "mira",
+  "name": "Mira",
+  "title": "Paper Dancer",
+  "hair": "paper-fall",
+  "face": "open",
+  "chestKind": "wrap",
+  "boots": "wrap",
+  "cloth": "paper-hem",
+  "weapon": "paper-fan",
+  "costume": { "sash": true },
+  "effects": ["fold", "bloom"],
+  "prop": { "height": 372, "heads": 7.6, "bulk": 0.9, "shoulder": 0.92, "hipW": 1.02, "waist": 0.94, "armWidth": 0.9, "legWidth": 0.9, "footPrint": 0.94 },
+  "palette": {
+    "outline": "#2b2733",
+    "skin": "#f1d5bd",
+    "skinShade": "#d4a98c",
+    "hair": "#2f2b38",
+    "hairShade": "#211d29",
+    "hairLit": "#4d4759",
+    "main": "#f3ecdd",
+    "mainLit": "#fff8ea",
+    "mainShade": "#c9bfa9",
+    "accent": "#7c2f42",
+    "accentLit": "#a34a5c",
+    "trim": "#a3743f",
+    "under": "#4c4453",
+    "signature": "#b8455f",
+    "shadowGround": "#231f28"
+  },
+  "poses": {
+    "heavy-attack": {
+      "base": { "wind": 1.0 },
+      "frames": [
+        { "legs": { "front": { "hip": 52, "knee": 70 }, "back": { "hip": -12, "knee": 16 } } },
+        { "legs": { "front": { "hip": 84, "knee": 6 }, "back": { "hip": -28, "knee": 22 } } }
+      ]
+    },
+    "ultimate": {
+      "frames": [
+        { "arms": { "front": { "sh": 132, "el": 30 }, "back": { "sh": -24, "el": 44 } }, "wind": 1.0 }
+      ]
+    }
+  }
+}

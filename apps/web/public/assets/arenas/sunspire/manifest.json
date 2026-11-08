@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "source": "assets-source/arenas/sunspire.svg",
+  "width": 1600,
+  "height": 900,
+  "layers": [
+    "sky",
+    "city",
+    "court",
+    "floor",
+    "foreground"
+  ]
+}

@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="400" viewBox="0 0 300 400" data-anchor="150,400" data-asset="portrait">
+<title>Selka — Gale Runner, illustrated vector study</title>
+<defs>
+ <linearGradient id="coat" x2=".6" y2="1"><stop stop-color="#adc179"/><stop offset=".5" stop-color="#87a055"/><stop offset="1" stop-color="#5b6a34"/></linearGradient>
+ <linearGradient id="cream" x2=".7" y2="1"><stop stop-color="#fff3d3"/><stop offset=".5" stop-color="#f4e7c8"/><stop offset="1" stop-color="#d9c393"/></linearGradient>
+ <linearGradient id="skin" x2=".75" y2=".65"><stop stop-color="#f2cfa8"/><stop offset=".6" stop-color="#e0ac80"/><stop offset="1" stop-color="#b97e5b"/></linearGradient>
+ <linearGradient id="hair" x2=".8" y2="1"><stop stop-color="#5d6038"/><stop offset=".55" stop-color="#4f5230"/><stop offset="1" stop-color="#33351d"/></linearGradient>
+ <linearGradient id="steel" x2=".4" y2="1"><stop stop-color="#dfe6ea"/><stop offset=".5" stop-color="#aebfc7"/><stop offset="1" stop-color="#7b8e97"/></linearGradient>
+ <pattern id="weave" width="6" height="6" patternUnits="userSpaceOnUse"><path d="M0 1h6M1 0v6" stroke="#e9dcb4" opacity=".1" stroke-width=".5"/></pattern>
+</defs>
+<g stroke="#2a2b1c" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round">
+ <!-- Wind: gale ribbons answering her stride. -->
+ <path d="M34 180Q70 170 96 150 84 176 44 192Z" fill="none" stroke="#cfd9a8" stroke-opacity=".5" fill="none"/>
+ <path d="M18 236Q58 232 84 214M46 270Q84 262 108 244" fill="none" stroke="#cfd9a8" stroke-opacity=".4" stroke-width="2"/>
+ <!-- Twin blade riding over her shoulder. -->
+ <path d="M196 116L262 52 272 44 268 62 214 138Z" fill="url(#steel)"/>
+ <path d="M262 52L272 44 268 62 254 74Z" fill="#8fa2ab"/>
+ <path d="M204 128L216 140 204 146 196 134Z" fill="#8a6a3a"/>
+ <path d="M210 124L224 60" stroke="#f2f7f9" stroke-width="1.4" fill="none"/>
+ <!-- Back arm braced across, wrapped fingers on the hilt. -->
+ <path d="M118 196L96 224 104 246 130 240 140 214Z" fill="url(#coat)"/>
+ <path d="M124 214L138 232" stroke="#e9dcb4" stroke-opacity=".5" fill="none"/>
+ <path d="M128 232L148 224 158 240 148 254 130 252Z" fill="url(#cream)"/>
+ <path d="M134 236L146 240M133 244L144 248" stroke="#b99a5e" stroke-width="1" fill="none"/>
+ <!-- Half-cape snapping behind, cream hem gold at the tip. -->
+ <path d="M120 160L84 156 60 196 54 260 78 258 96 220 104 186 126 176Z" fill="#4c5426"/>
+ <path d="M60 196L54 260 78 258 70 214Z" fill="#3a401c" stroke="none"/>
+ <path d="M54 260L74 274 84 258 78 258Z" fill="url(#cream)"/>
+ <!-- Runner's coat: cut for motion, high collar, cream sash. -->
+ <path d="M118 154L152 148 186 156 196 206 188 260 166 308 128 312 118 254 112 202Z" fill="url(#coat)"/>
+ <path d="M118 154L152 148 186 156 196 206 188 260 166 308 128 312 118 254 112 202Z" fill="url(#weave)" stroke="none"/>
+ <path d="M150 150L156 220 148 252" fill="none" stroke="#d8e0ac" stroke-opacity=".6" stroke-width="2"/>
+ <path d="M112 202L188 260" stroke="#e6dcb0" stroke-opacity=".4" fill="none"/>
+ <path d="M188 206L196 250 176 252Z" fill="#5b6a34" stroke="none"/>
+ <path d="M132 156L146 154 152 178 136 184 126 176Z" fill="url(#cream)"/>
+ <path d="M134 168Q160 176 182 168" fill="none" stroke="url(#cream)" stroke-width="7"/>
+ <path d="M150 254L186 244 192 262 156 272Z" fill="#8a6a3a"/>
+ <path d="M152 260L184 252" stroke="#d9b071" stroke-width="2" fill="none"/>
+ <!-- Forward arm: sleeve rolled, blade poised low. -->
+ <path d="M176 162Q196 158 202 176L212 210 198 224 186 214 188 182Z" fill="url(#coat)"/>
+ <path d="M182 168L196 186 206 208" stroke="#d8e0ac" stroke-opacity=".55" fill="none"/>
+ <path d="M199 210L212 202 220 218 206 228Z" fill="url(#cream)"/>
+ <path d="M204 214L214 208" stroke="#b99a5e" stroke-width="1" fill="none"/>
+ <!-- Neck, tilted face, smile riding the wind. -->
+ <path d="M142 132L168 130 172 148 148 152Z" fill="url(#skin)"/>
+ <path d="M136 62L178 64 188 88 186 112 174 130 148 134 132 118 128 90Z" fill="url(#skin)"/>
+ <path d="M178 118L174 130 162 132Z" fill="#b97e5b" stroke="none"/>
+ <path d="M148 128Q160 134 172 126" fill="none" stroke="#a1673f" stroke-width="1.2"/>
+ <path d="M130 60L182 62 190 86 178 78 160 64 140 70 128 82Z" fill="url(#hair)"/>
+ <path d="M128 80L182 76 190 86 176 80 156 66 136 72Z" fill="#33351d" stroke="none"/>
+ <path d="M186 90Q198 84 194 96 188 100Z" fill="url(#hair)" stroke-width="1.2"/>
+ <!-- Ponytail streaming like a banner. -->
+ <path d="M176 70L228 82 268 116 282 156 256 148 226 122 198 104 182 92Z" fill="url(#hair)"/>
+ <path d="M198 104L226 122 240 130 216 118 200 110Z" fill="#33351d" stroke="none"/>
+ <path d="M282 156L270 170 258 158 252 148Z" fill="url(#cream)" stroke-width="1.2"/>
+ <path d="M196 100L238 122 268 148" fill="none" stroke="#6f7346" stroke-width="2" stroke-opacity=".8"/>
+ <path d="M140 96L152 94M166 94L176 95" fill="none" stroke="#3c2f22" stroke-width="2"/>
+ <path d="M142 99L151 99M167 98L174 99" stroke="#f5e1b8" stroke-width="2.6" fill="none"/>
+ <path d="M158 108Q162 112 168 108M170 102Q166 94 160 94" fill="none" stroke="#a1673f" stroke-width="1.2"/>
+ <path d="M163 118Q172 121 178 116" fill="none" stroke="#8e5a3a" stroke-width="1.4"/>
+ <path d="M158 118Q166 124 174 120" fill="none" stroke="#8e5a3a" stroke-width="1.4"/>
+ <path d="M150 110L156 116" stroke="#b97e5b" stroke-width="1.4" fill="none"/>
+ <path d="M142 90L154 88" stroke="#6f7346" stroke-width="2.4" fill="none"/>
+</g>
+<!-- pollen flecks ride the gale -->
+<g stroke="none" fill="#e8d9a0"><path d="M38 130L43 140 33 140Z" opacity=".9"/><path d="M262 208L266 216 258 216Z" opacity=".7"/><path d="M44 306L48 312 41 312Z" opacity=".6"/><circle cx="226" cy="310" r="2" opacity=".5"/></g>
+</svg>

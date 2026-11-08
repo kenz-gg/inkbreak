@@ -1,0 +1,36 @@
+{
+  "name": "inkbreak",
+  "version": "0.1.0",
+  "private": true,
+  "description": "INKBREAK: Arena of the Folded World — HD-2D browser fighting game",
+  "type": "module",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "assets:export": "node packages/asset-tools/export-visuals.mjs",
+    "assets:characters": "node packages/asset-tools/compile-characters.mjs && node packages/asset-tools/export-characters.mjs",
+    "predev": "npm run assets:export && npm run assets:characters",
+    "predev:web": "npm run assets:export && npm run assets:characters",
+    "prebuild": "npm run assets:export && npm run assets:characters",
+    "dev": "npm run dev -w apps/web",
+    "dev:web": "npm run dev -w apps/web",
+    "build": "npm run build -w apps/web",
+    "typecheck": "tsc -p packages/shared --noEmit && tsc -p apps/web --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint .",
+    "test:e2e": "playwright test"
+  },
+  "overrides": { "vite": "6.4.1", "esbuild": "0.25.0" },
+  "devDependencies": {
+    "@playwright/test": "1.56.1",
+    "@types/node": "^24.0.0",
+    "@eslint/js": "^9.17.0",
+    "eslint": "^9.17.0",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.19.0",
+    "vitest": "^3.2.4"
+  }
+}

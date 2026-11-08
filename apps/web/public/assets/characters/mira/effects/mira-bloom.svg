@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" data-anchor="256,300" data-asset="effect" data-effect="mira-bloom">
+<!-- Mira (mira) bloom effect stamp · generated development art; anchor (256,300) approximates the fighter's chest -->
+<path d="M330 290L339 300L330 311L321 300Z" fill="#f6efdf" fill-opacity="0.8"/>
+<polyline points="256,300 296.7,300" fill="none" stroke="#7c2f42" stroke-width="1.6" stroke-linecap="round" stroke-opacity="0.6"/>
+<path d="M293 342L302 352L293 363L284 352Z" fill="#fff8ea" fill-opacity="0.8"/>
+<polyline points="256,300 276.4,328.6" fill="none" stroke="#7c2f42" stroke-width="1.6" stroke-linecap="round" stroke-opacity="0.6"/>
+<path d="M219 342L228 352L219 363L210 352Z" fill="#f6efdf" fill-opacity="0.8"/>
+<polyline points="256,300 235.7,328.6" fill="none" stroke="#7c2f42" stroke-width="1.6" stroke-linecap="round" stroke-opacity="0.6"/>
+<path d="M182 290L191 300L182 311L173 300Z" fill="#fff8ea" fill-opacity="0.8"/>
+<polyline points="256,300 215.3,300" fill="none" stroke="#7c2f42" stroke-width="1.6" stroke-linecap="round" stroke-opacity="0.6"/>
+<path d="M219 238L228 248L219 259L210 248Z" fill="#f6efdf" fill-opacity="0.8"/>
+<polyline points="256,300 235.7,271.4" fill="none" stroke="#7c2f42" stroke-width="1.6" stroke-linecap="round" stroke-opacity="0.6"/>
+<path d="M293 238L302 248L293 259L284 248Z" fill="#fff8ea" fill-opacity="0.8"/>
+<polyline points="256,300 276.4,271.4" fill="none" stroke="#7c2f42" stroke-width="1.6" stroke-linecap="round" stroke-opacity="0.6"/>
+</svg>

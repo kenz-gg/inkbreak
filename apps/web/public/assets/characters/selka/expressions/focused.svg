@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" data-anchor="128,222" data-asset="expression" data-expression="focused">
+<!-- Selka (selka) focused expression bust · generated development art; key light upper-left -->
+<path d="M145.4 58.6L69.1 89.6L13.3 136.7L-22 171.4L25.7 162.1L64.8 129.2L93.9 104.4L120.6 72.2Z" fill="#4f5230" stroke="#2a2b1c" stroke-width="1.1" stroke-linejoin="round"/>
+<path d="M19.5 150.3L46.2 133L79.6 110.6Z" fill="#383a22"/>
+<polyline points="102,69.7 35,116.8 4,156.5" fill="none" stroke="#6f7346" stroke-opacity=".55" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M89.6 79.6L160.2 75.3L173.9 134.2L152.8 174.5L110.6 180.7L84.6 139.2Z" fill="#eec39d" stroke="#2a2b1c" stroke-width="1.1" stroke-linejoin="round"/>
+<path d="M173.9 131.1L155.9 171.4L137.3 177.6L149.1 140.4Z" fill="#cc9370" fill-opacity="0.45"/>
+<line x1="155.3" y1="133" x2="139.2" y2="135.4" stroke="#2a2b1c" stroke-width="5.3" stroke-linecap="round"/>
+<line x1="128" y1="135.4" x2="115.6" y2="138.2" stroke="#2a2b1c" stroke-width="4.6" stroke-linecap="round"/>
+<line x1="135.4" y1="156.5" x2="147.8" y2="157.8" stroke="#2a2b1c" stroke-opacity=".85" stroke-width="5" stroke-linecap="round"/>
+<path d="M84.6 100.7L145.4 66L168.9 104.4L155.3 123L131.7 113.1Z" fill="#4f5230" stroke="#2a2b1c" stroke-width="1.1" stroke-linejoin="round"/>
+<path d="M71 100.7L104.4 58.6L162.1 64.8L154 75.9L102 74.7Z" fill="#383a22"/>
+<path d="M70 214L128 196L186 214L186 256L70 256Z" fill="#9db06f" stroke="#2a2b1c" stroke-width="1.1" stroke-linejoin="round"/>
+</svg>

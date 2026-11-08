@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" data-anchor="128,222" data-asset="expression" data-expression="strained">
+<!-- Kaien (kaien) strained expression bust · generated development art; key light upper-left -->
+<path d="M87.1 62.3L31.9 120.6L44.3 230.9L97 182.6L146.6 212.3L170.2 160.2L166.4 66Z" fill="#40261a" stroke="#2c1f16" stroke-width="1.1" stroke-linejoin="round"/>
+<path d="M50.5 221L90.8 165.2L116.8 203.6Z" fill="#2b180f"/>
+<polyline points="93.9,72.2 53.6,120.6 69.1,172.6" fill="none" stroke="#6d4530" stroke-opacity=".55" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M89.6 79.6L160.2 75.3L173.9 134.2L152.8 174.5L110.6 180.7L84.6 139.2Z" fill="#e7bd97" stroke="#2c1f16" stroke-width="1.1" stroke-linejoin="round"/>
+<path d="M173.9 131.1L155.9 171.4L137.3 177.6L149.1 140.4Z" fill="#c98f66" fill-opacity="0.45"/>
+<path d="M154 133 q -8.7 9.9 -18.6 0" fill="none" stroke="#2c1f16" stroke-width="6.2" stroke-linecap="round"/>
+<path d="M129.2 135.4 q -7.4 9.3 -14.9 0" fill="none" stroke="#2c1f16" stroke-width="5.6" stroke-linecap="round"/>
+<line x1="135.4" y1="156.5" x2="147.8" y2="157.8" stroke="#2c1f16" stroke-opacity=".85" stroke-width="5" stroke-linecap="round"/>
+<path d="M84.6 97L146.6 66L170.2 102L144.1 109.4L124.9 87.1Z" fill="#40261a" stroke="#2c1f16" stroke-width="1.1" stroke-linejoin="round"/>
+<path d="M71 100.7L104.4 58.6L162.1 64.8L154 75.9L102 74.7Z" fill="#2b180f"/>
+<path d="M70 214L128 196L186 214L186 256L70 256Z" fill="#c06a41" stroke="#2c1f16" stroke-width="1.1" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,9 @@
+{
+  "name": "@inkbreak/web",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": { "dev": "vite --host 0.0.0.0", "build": "tsc --noEmit && vite build", "preview": "vite preview --host 0.0.0.0" },
+  "dependencies": { "@inkbreak/shared": "*", "phaser": "3.90.0" },
+  "devDependencies": { "vite": "6.4.1" }
+}

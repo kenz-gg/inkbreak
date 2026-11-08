@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="400" viewBox="0 0 300 400" data-anchor="150,400" data-asset="portrait">
+<title>Mira — Paper Dancer, illustrated vector study</title>
+<defs>
+ <linearGradient id="silk" x2=".8" y2="1"><stop stop-color="#fff1ce"/><stop offset=".55" stop-color="#e6d4ac"/><stop offset="1" stop-color="#a69a7f"/></linearGradient>
+ <linearGradient id="wine" x2="1" y2=".7"><stop stop-color="#b0696b"/><stop offset=".4" stop-color="#8b424f"/><stop offset="1" stop-color="#4a2b3b"/></linearGradient>
+ <linearGradient id="hair" x2="1" y2=".2"><stop stop-color="#242b2d"/><stop offset=".5" stop-color="#514046"/><stop offset="1" stop-color="#26272a"/></linearGradient>
+ <linearGradient id="skin" x2="1" y2=".5"><stop stop-color="#f8d9b3"/><stop offset=".7" stop-color="#e9bd95"/><stop offset="1" stop-color="#bb8c71"/></linearGradient>
+ <pattern id="motif" width="33" height="34" patternUnits="userSpaceOnUse"><path d="M16 5L21 14 16 23 11 14ZM10 14H22" fill="none" stroke="#8b525c" stroke-width=".6" opacity=".3"/></pattern>
+</defs>
+<g stroke="#353039" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round">
+ <path d="M129 80Q108 104 116 146Q112 171 100 183L104 208Q133 202 148 178L177 176Q208 180 218 202Q212 151 180 104Z" fill="url(#hair)"/>
+ <path d="M121 114Q124 149 113 175M179 128Q181 156 198 170" stroke="#8c7271" stroke-opacity=".4" fill="none"/>
+ <path d="M123 262L113 329 115 355 137 356 151 279 166 326 175 355 195 348 183 268Z" fill="url(#wine)"/>
+ <path d="M126 288L123 329M170 288L179 329" stroke="#ca9a8b" opacity=".4" fill="none"/>
+ <path d="M114 343L136 349 136 367Q126 374 110 377H94Q89 369 102 360L113 354Z" fill="#393137"/>
+ <path d="M173 348L192 341 198 358 208 369 209 375 164 378 160 373 179 360Z" fill="#393137"/>
+ <path d="M110 350L134 355M176 355L194 349M95 372H119M168 374L205 371" stroke="#d9bc96" stroke-width="2" fill="none"/>
+ <path d="M120 352L123 367M181 354L187 366" stroke="#ad6571" stroke-width="3" fill="none"/>
+ <!-- Layered rear sleeve, paper hems and floating sash. -->
+ <path d="M121 143Q100 148 87 175L65 208Q71 228 94 234L118 213 134 168Z" fill="url(#silk)"/>
+ <path d="M89 174L86 208 103 219M78 205Q87 210 90 228" fill="none" stroke="#b5a589"/>
+ <path d="M65 208Q75 227 94 234L105 224Q83 216 74 197Z" fill="url(#wine)"/>
+ <path d="M98 211L111 209 123 218 120 228 110 234 100 227Z" fill="url(#skin)"/>
+ <path d="M105 216L117 220M105 222L117 225" stroke="#ae7e68" stroke-width="1"/>
+ <path d="M174 220Q205 226 223 255L207 254 221 279Q189 267 173 239L171 299 158 280 157 229Z" fill="url(#wine)"/>
+ <path d="M179 229Q199 241 207 256M164 238L164 277" fill="none" stroke="#ce9990"/>
+ <!-- Ivory silhouette and asymmetrical pleated robe. -->
+ <path d="M122 144L143 131 165 135 186 147 178 203 181 233Q196 278 216 310L190 319 173 303 153 252 136 309 115 326 88 307Q112 272 118 230L115 193Z" fill="url(#silk)"/>
+ <path d="M125 233L103 300 116 315 137 284 151 240 170 279 189 309 206 306 177 234Z" fill="url(#motif)" stroke="none"/>
+ <path d="M125 237L115 287 101 307M142 244L128 291M171 244L186 286M152 156L154 198" stroke="#a89b83" stroke-width="1" fill="none"/>
+ <path d="M122 144L150 191 163 178 177 141 185 146 165 196 153 210 117 155Z" fill="url(#wine)"/>
+ <path d="M128 144L153 181 174 144" stroke="#fff0c8" stroke-width="3" fill="none"/>
+ <path d="M92 299L114 313 132 298 136 308 115 326 88 307ZM176 294L192 309 212 301 216 311 190 319 173 303Z" fill="url(#wine)"/>
+ <path d="M94 305L114 318 132 303M179 302L191 313 211 307" stroke="#d9b992" stroke-width="1" fill="none"/>
+ <path d="M117 211Q149 220 179 210L183 233Q151 241 116 232Z" fill="url(#wine)"/>
+ <path d="M120 216Q150 224 179 215M119 228Q153 234 179 226" stroke="#d5a27f" stroke-width="1.2" fill="none"/>
+ <path d="M158 213L168 219 166 231 157 235 150 229 151 218Z" fill="#e5cda0"/><path d="M157 218L162 223 158 229 154 224Z" fill="#864553" stroke="none"/>
+ <!-- Forward sleeve catches the warm edge light. -->
+ <path d="M179 146Q193 145 205 163L222 183 238 162 254 177Q247 209 229 224L203 226 181 183Z" fill="url(#silk)"/>
+ <path d="M186 153L204 181 212 209M205 170L222 196 236 181" stroke="#b4a68b" fill="none"/>
+ <path d="M205 188L203 226 229 224 240 211Q220 216 205 188Z" fill="#bdb292" stroke="none"/>
+ <path d="M232 168L242 157 258 173 252 188Z" fill="url(#wine)"/><path d="M237 168L250 180" stroke="#e8c99d" stroke-width="2"/>
+ <!-- Fan and fingers. -->
+ <path d="M239 164L237 151 244 140 251 141 254 150 263 154 261 167 251 175Z" fill="url(#skin)"/>
+ <path d="M245 148L246 158 257 160M243 159L251 166" stroke="#a77865" stroke-width="1" fill="none"/>
+ <path d="M246 155L208 116Q213 99 230 93Q248 87 263 100L280 128Z" fill="url(#silk)"/>
+ <path d="M246 155L211 112M246 155L228 97M246 155L246 94M246 155L263 103M246 155L277 126" stroke="#98616a" stroke-width="1" fill="none"/>
+ <path d="M214 117Q236 100 269 125M220 124Q240 109 263 131" stroke="#ab6870" stroke-width="2" fill="none"/>
+ <path d="M234 122L241 119 245 128 239 133Z" fill="#9a5763" stroke="none"/>
+ <!-- Refined face and paper hairpiece. -->
+ <path d="M139 134L139 116 165 117 171 139 153 154Z" fill="url(#skin)"/>
+ <path d="M140 121L155 131 166 125 165 116Z" fill="#bd9278" stroke="none"/>
+ <path d="M126 82Q128 62 153 61Q177 61 181 82L178 110Q170 128 156 133Q140 129 130 115Z" fill="url(#skin)"/>
+ <path d="M126 108Q116 99 119 80Q113 56 140 49Q169 38 183 60Q198 71 185 109L176 90 173 73 165 93 153 72 137 94 134 114Z" fill="url(#hair)"/>
+ <path d="M123 78Q130 54 153 55M154 54Q177 54 181 76M130 91L137 78" stroke="#8c6f6b" stroke-opacity=".6" fill="none"/>
+ <path d="M141 103L151 102M167 100L176 102" stroke="#65484a" stroke-width="1.5"/>
+ <path d="M142 107L151 108M166 106L174 106" stroke="#fff0d2" stroke-width="3"/>
+ <path d="M149 106L148 109M170 105V108" stroke="#3f3840" stroke-width="2"/>
+ <path d="M159 106L157 115 161 115M153 123Q159 125 165 120" stroke="#aa776a" stroke-width="1" fill="none"/>
+ <path d="M124 79L102 66 109 50 130 62 138 53 144 73 127 89Z" fill="#f0dfb6"/>
+ <path d="M104 65L127 73 130 63M127 73L138 55M127 73L128 87" stroke="#a16b6d" stroke-width="1" fill="none"/>
+ <path d="M116 84L104 117 114 110 117 126 125 88" fill="#e4cda1"/>
+</g>
+<g stroke="#ac7c77" stroke-width="1"><path d="M34 150L56 130 77 140 55 158Z" fill="#f3e3bf"/><path d="M34 150L56 145 56 130" fill="#c9bca3"/><path d="M224 289L248 270 271 286 247 305Z" fill="#f6e5bf"/><path d="M224 289L247 286 248 270" fill="#c7b29c"/><path d="M56 290L74 276 92 285 76 302Z" fill="#efdbb6"/></g>
+</svg>

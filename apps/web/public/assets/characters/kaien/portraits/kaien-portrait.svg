@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="400" viewBox="0 0 300 400" data-anchor="150,400" data-asset="portrait">
+<title>Kaien — Ember Wanderer, illustrated vector study</title>
+<defs>
+ <linearGradient id="coat" x2=".8" y2="1"><stop stop-color="#e5a16b"/><stop offset=".38" stop-color="#bf6844"/><stop offset="1" stop-color="#763a2c"/></linearGradient>
+ <linearGradient id="scarf" x2=".6" y2="1"><stop stop-color="#f0b55a"/><stop offset=".4" stop-color="#d8793c"/><stop offset="1" stop-color="#913c2c"/></linearGradient>
+ <linearGradient id="skin" x2="1" y2=".6"><stop stop-color="#f5cda0"/><stop offset=".65" stop-color="#dca779"/><stop offset="1" stop-color="#b87555"/></linearGradient>
+ <linearGradient id="leather" x2="1" y2=".4"><stop stop-color="#352e29"/><stop offset=".5" stop-color="#6a4d38"/><stop offset="1" stop-color="#3c3029"/></linearGradient>
+ <pattern id="weave" width="7" height="7" patternUnits="userSpaceOnUse"><path d="M0 1h7M1 0v7" stroke="#f3d8a4" opacity=".08" stroke-width=".5"/></pattern>
+</defs>
+<g stroke="#352c26" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round">
+ <!-- Worn asymmetric scarf: a long flowing shape anchors the silhouette. -->
+ <path d="M139 137C104 116 89 126 64 143S23 160 13 148Q22 175 56 174L34 196Q76 199 102 174L146 153Z" fill="url(#scarf)"/>
+ <path d="M26 166Q58 173 83 149T132 142M42 190Q80 185 107 158" fill="none" stroke="#efb866" stroke-width="1"/>
+ <path d="M122 244Q143 247 154 260L139 313 123 352 101 351 109 302 108 265Z" fill="#414140"/>
+ <path d="M152 249L184 244Q193 270 190 302L198 347 176 353 161 309 146 282Z" fill="#555149"/>
+ <path d="M123 267L122 306 113 339M169 268L178 303 184 337" stroke="#9b9273" stroke-opacity=".35" fill="none"/>
+ <path d="M104 335L128 341 124 361Q113 365 110 373L76 375Q72 364 88 357L100 352Z" fill="url(#leather)"/>
+ <path d="M174 339L195 333 203 353 204 362Q221 369 218 378L166 378 166 370 180 359Z" fill="url(#leather)"/>
+ <path d="M77 371L111 369M170 373H215M102 340L125 347M178 345L198 340" fill="none" stroke="#b78e5f" stroke-width="2"/>
+ <path d="M109 342L108 355M119 345L117 358M181 348L186 357M192 345L197 355" fill="none" stroke="#ceb38a" stroke-width="1"/>
+ <!-- Rear sleeve and wrapped hand. -->
+ <path d="M119 145Q99 145 92 167L75 205Q72 215 84 224L104 232 115 214 97 203 120 175Z" fill="url(#coat)"/>
+ <path d="M80 203L99 212 108 222 100 234 84 228 74 217Z" fill="#514239"/>
+ <path d="M101 217L113 219 120 225 117 236 107 240 99 233Z" fill="url(#skin)"/>
+ <path d="M105 224L116 228M104 229L114 233" stroke="#945b43" stroke-width="1"/>
+ <!-- Main coat, layered lapel and worn hem. -->
+ <path d="M119 143L142 130 170 136 187 151 182 204 185 233 202 275 174 272 153 246 138 281 107 286 98 274 113 223 108 174Z" fill="url(#coat)"/>
+ <path d="M119 143L142 130 170 136 187 151 182 204 185 233 202 275 174 272 153 246 138 281 107 286 98 274 113 223 108 174Z" fill="url(#weave)" stroke="none"/>
+ <path d="M141 144L158 180 174 146 168 198 147 218 125 177Z" fill="#e3c898"/>
+ <path d="M122 143L138 181 148 211 131 190 112 156ZM173 140L166 182 150 212 179 177 190 152Z" fill="#a14e35"/>
+ <path d="M123 147L140 184M179 150L166 181M107 277L133 272 151 234M177 267L195 271" stroke="#edbf7b" stroke-width="2" fill="none"/>
+ <path d="M116 182L122 197M179 192L167 209M116 239L110 265M172 240L182 259" stroke="#65382b" opacity=".5" fill="none"/>
+ <path d="M164 145L134 217" stroke="#40362b" stroke-width="13"/><path d="M164 145L134 217" stroke="#967451" stroke-width="8"/><path d="M166 146L137 216" stroke="#d0aa71" stroke-width="1"/>
+ <path d="M112 216Q149 225 184 215L187 233Q149 239 111 232Z" fill="url(#leather)"/>
+ <rect x="143" y="216" width="19" height="20" rx="2" fill="#c5a367"/><rect x="147" y="220" width="11" height="12" rx="1" fill="#57432e"/><path d="M148 226H162" stroke="#e9c684"/>
+ <path d="M116 222L137 224 136 246 117 248 112 237Z" fill="#6c4d35"/><path d="M115 225L135 227 130 235 118 234Z" fill="#94704a"/>
+ <circle cx="125" cy="234" r="2" fill="#d9b77a" stroke="none"/>
+ <!-- Forward arm, bracer, readable fingers. -->
+ <path d="M180 148Q194 147 201 162L219 196 234 181 247 192 227 221Q216 232 206 219L180 183Z" fill="url(#coat)"/>
+ <path d="M184 153L198 164 216 203M188 176L205 201" stroke="#efb57a" stroke-width="2" fill="none"/>
+ <path d="M226 185L238 174 254 189 242 205Z" fill="url(#leather)"/><path d="M231 180L247 197M235 176L251 193" stroke="#c2a175" stroke-width="2"/>
+ <path d="M238 174L239 163 246 157 251 160 254 166 261 171 260 184 252 190Z" fill="url(#skin)"/>
+ <path d="M244 163L247 174 255 178M251 164L254 173M241 175L249 182" fill="none" stroke="#9e654a" stroke-width="1"/>
+ <!-- Face, neck and wind-swept hair. -->
+ <path d="M136 134L136 113 165 111 173 139 154 155Z" fill="url(#skin)"/>
+ <path d="M136 120L158 133 166 124 165 116Z" fill="#ae7150" stroke="none"/>
+ <path d="M123 79Q128 61 151 62Q177 62 181 83L178 105 181 112 173 116 169 125 153 134 134 124 126 108 120 98Z" fill="url(#skin)"/>
+ <path d="M123 88Q113 71 124 56L116 48 138 51 151 36 159 48 177 42 176 55Q194 62 190 79L180 97 174 78 164 72 149 82 137 74 130 99 126 104Z" fill="#332b27"/>
+ <path d="M124 63L144 62 154 49M143 71L161 60 178 63" fill="none" stroke="#6c5140" stroke-width="2"/>
+ <path d="M128 99Q117 92 120 104L129 112" fill="url(#skin)"/>
+ <path d="M142 99L152 97M168 96L176 97" stroke="#453128" stroke-width="2"/>
+ <path d="M143 103L152 103M167 101L174 102" stroke="#f5e1b8" stroke-width="3"/>
+ <path d="M149 102V105M171 101V104" stroke="#342b25" stroke-width="2"/>
+ <path d="M162 101L159 113 165 113M152 121Q161 124 167 119M137 113L141 116" fill="none" stroke="#915a43" stroke-width="1"/>
+ <path d="M137 111L145 115" stroke="#efc18e" stroke-width="2"/>
+ <path d="M128 133Q146 147 176 132L184 146Q166 163 149 166L121 153Z" fill="url(#scarf)"/>
+ <path d="M128 141Q151 157 178 141M137 155L153 159 174 149" stroke="#f1c87b" stroke-width="1" fill="none"/>
+</g>
+<g fill="#edb35c" opacity=".85"><path d="M33 223Q31 211 40 202Q36 213 44 216L40 229Z"/><path d="M238 291L243 274 247 289 242 299Z"/><path d="M73 277L77 267 81 276 77 284Z"/></g>
+</svg>

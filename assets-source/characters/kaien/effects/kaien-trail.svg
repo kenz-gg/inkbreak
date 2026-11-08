@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" data-anchor="256,300" data-asset="effect" data-effect="kaien-trail">
+<!-- Kaien (kaien) trail effect stamp · generated development art; anchor (256,300) approximates the fighter's chest -->
+<polyline points="70,330 150,250 260,210" fill="none" stroke="#f2923a" stroke-width="10" stroke-linecap="round" stroke-opacity="0.8"/>
+<polyline points="92,380 190,306 306,262" fill="none" stroke="#e1936b" stroke-width="6" stroke-linecap="round" stroke-opacity="0.75"/>
+<path d="M262 208L286 196L274 222Z" fill="#f2923a" fill-opacity="0.85"/>
+<path d="M306 262L330 252L318 276Z" fill="#b58a3f" fill-opacity="0.8"/>
+<ellipse cx="120" cy="232" rx="3.4" ry="3.4" fill="#f2923a" fill-opacity="0.9"/>
+<ellipse cx="200" cy="280" rx="2.6" ry="2.6" fill="#b58a3f" fill-opacity="0.75"/>
+<ellipse cx="96" cy="300" rx="2.2" ry="2.2" fill="#e1936b" fill-opacity="0.6"/>
+</svg>

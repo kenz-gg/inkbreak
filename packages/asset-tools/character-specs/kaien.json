@@ -1,0 +1,32 @@
+{
+  "id": "kaien",
+  "name": "Kaien",
+  "title": "Ember Wanderer",
+  "hair": "ember-mane",
+  "face": "open",
+  "chestKind": "wrap",
+  "boots": "traveler",
+  "cloth": "ember-scarf",
+  "weapon": null,
+  "costume": { "sash": true },
+  "effects": ["trail", "impact"],
+  "prop": { "height": 392, "heads": 7.4, "bulk": 1.0, "shoulder": 1.0, "hipW": 1.0, "waist": 1.0, "armWidth": 1.0, "legWidth": 1.0, "footPrint": 1.0 },
+  "palette": {
+    "outline": "#2c1f16",
+    "skin": "#e7bd97",
+    "skinShade": "#c98f66",
+    "hair": "#40261a",
+    "hairShade": "#2b180f",
+    "hairLit": "#6d4530",
+    "main": "#c06a41",
+    "mainLit": "#e1936b",
+    "mainShade": "#8d4128",
+    "accent": "#b58a3f",
+    "accentLit": "#d9b06a",
+    "trim": "#7a4a2a",
+    "under": "#52392a",
+    "signature": "#f2923a",
+    "shadowGround": "#2b1e15"
+  },
+  "poses": {}
+}

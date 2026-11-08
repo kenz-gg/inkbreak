@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" data-anchor="256,300" data-asset="effect" data-effect="kaien-impact">
+<!-- Kaien (kaien) impact effect stamp · generated development art; anchor (256,300) approximates the fighter's chest -->
+<polyline points="298.4,317.9 339.3,347.7" fill="none" stroke="#e1936b" stroke-width="8" stroke-linecap="round" stroke-opacity="0.8"/>
+<polyline points="271.1,353.9 273.4,412.7" fill="none" stroke="#f2923a" stroke-width="6" stroke-linecap="round" stroke-opacity="0.8"/>
+<polyline points="229.1,337.3 166.6,397.1" fill="none" stroke="#e1936b" stroke-width="4" stroke-linecap="round" stroke-opacity="0.8"/>
+<polyline points="200.1,302.7 160.2,293.2" fill="none" stroke="#f2923a" stroke-width="8" stroke-linecap="round" stroke-opacity="0.8"/>
+<polyline points="225.6,265.5 191.4,206" fill="none" stroke="#e1936b" stroke-width="6" stroke-linecap="round" stroke-opacity="0.8"/>
+<polyline points="265.8,244.9 294.5,173.7" fill="none" stroke="#f2923a" stroke-width="4" stroke-linecap="round" stroke-opacity="0.8"/>
+<polyline points="296.4,278 345.2,264.6" fill="none" stroke="#e1936b" stroke-width="8" stroke-linecap="round" stroke-opacity="0.8"/>
+<path d="M222 282L266 266L296 300L260 330L226 316Z" fill="#f2923a" fill-opacity="0.35"/>
+</svg>

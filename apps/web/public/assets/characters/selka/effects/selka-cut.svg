@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" data-anchor="256,300" data-asset="effect" data-effect="selka-cut">
+<!-- Selka (selka) cut effect stamp · generated development art; anchor (256,300) approximates the fighter's chest -->
+<polyline points="110,320 190,160 250,220" fill="none" stroke="#e8d9a0" stroke-width="8" stroke-linecap="round" stroke-opacity="0.85"/>
+<polyline points="150,350 236,206 286,258" fill="none" stroke="#c2cf97" stroke-width="5" stroke-linecap="round" stroke-opacity="0.75"/>
+<path d="M250 218L268 232L252 246Z" fill="#c2cf97" fill-opacity="0.9"/>
+<path d="M286 256L302 274L284 282Z" fill="#e8d9a0" fill-opacity="0.7"/>
+</svg>

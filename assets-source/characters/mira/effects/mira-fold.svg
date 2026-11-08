@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" data-anchor="256,300" data-asset="effect" data-effect="mira-fold">
+<!-- Mira (mira) fold effect stamp · generated development art; anchor (256,300) approximates the fighter's chest -->
+<path d="M404.3 469.2L430.4 457.5L441.7 481.7L413.4 492.8Z" fill="#f6efdf" fill-opacity="0.85"/>
+<line x1="404.3" y1="469.2" x2="441.7" y2="481.7" stroke="#7c2f42" stroke-opacity=".7" stroke-width="1.6"/>
+<path d="M473.6 530.5L502 533.4L499.7 560L469.6 555.5Z" fill="#efe6cf" fill-opacity="0.85"/>
+<line x1="473.6" y1="530.5" x2="499.7" y2="560" stroke="#7c2f42" stroke-opacity=".7" stroke-width="1.6"/>
+<path d="M592 487.7L613.2 468.5L631.4 488L608 507.3Z" fill="#f6efdf" fill-opacity="0.85"/>
+<line x1="592" y1="487.7" x2="631.4" y2="488" stroke="#7c2f42" stroke-opacity=".7" stroke-width="1.6"/>
+<polyline points="146,360 216,340 316,366" fill="none" stroke="#7c2f42" stroke-width="2.4" stroke-linecap="round" stroke-opacity="0.7"/>
+</svg>

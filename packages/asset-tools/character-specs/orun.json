@@ -1,0 +1,53 @@
+{
+  "id": "orun",
+  "name": "Orun",
+  "title": "Iron Sentinel",
+  "hair": "sentinel-crop",
+  "face": "visor",
+  "chestKind": "chestplate",
+  "boots": "greaves",
+  "cloth": null,
+  "weapon": "tower-shield",
+  "costume": { "sash": false },
+  "effects": ["shock", "dust"],
+  "prop": { "height": 424, "heads": 7.2, "bulk": 1.18, "shoulder": 1.14, "hipW": 1.1, "waist": 1.12, "armWidth": 1.3, "legWidth": 1.24, "footPrint": 1.15 },
+  "palette": {
+    "outline": "#23272d",
+    "skin": "#d9ac85",
+    "skinShade": "#b3815e",
+    "hair": "#33362c",
+    "hairShade": "#23251e",
+    "hairLit": "#4c4f42",
+    "main": "#776f60",
+    "mainLit": "#a39786",
+    "mainShade": "#544e45",
+    "accent": "#b0683a",
+    "accentLit": "#d69063",
+    "trim": "#6a5a3c",
+    "under": "#4a4239",
+    "plate": "#5c626d",
+    "plateShade": "#3f444d",
+    "plateLit": "#8d949e",
+    "signature": "#d69063",
+    "shadowGround": "#22252a"
+  },
+  "poses": {
+    "walk": {
+      "base": { "crouch": 5 },
+      "frames": [
+        { "legs": { "front": { "hip": 26, "knee": 8 }, "back": { "hip": -16, "knee": 6 } } },
+        { "legs": { "front": { "hip": 2, "knee": 4 }, "back": { "hip": -24, "knee": 20 } } }
+      ]
+    },
+    "jump": { "base": { "air": 96, "lift": { "front": 44, "back": 38 } } },
+    "dash": { "base": { "lean": 30, "crouch": 16 } },
+    "guard": { "base": { "crouch": 10, "weapon": "act", "arms": { "front": { "sh": 44, "el": 130 }, "back": { "sh": 40, "el": 112 } } } },
+    "heavy-attack": {
+      "frames": [
+        { "weapon": "act", "arms": { "front": { "sh": 106, "el": 120 }, "back": { "sh": 62, "el": 100 } } },
+        { "weapon": "act", "arms": { "front": { "sh": 70, "el": 14 }, "back": { "sh": -46, "el": 30 } } }
+      ]
+    },
+    "defeat": { "base": { "crouch": 70, "weapon": "ready" } }
+  }
+}

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" data-anchor="256,300" data-asset="effect" data-effect="orun-dust">
+<!-- Orun (orun) dust effect stamp · generated development art; anchor (256,300) approximates the fighter's chest -->
+<path d="M316 300L328 294L320 310Z" fill="#a39786" fill-opacity="0.35"/>
+<path d="M298.4 331.1L310.4 325.1L302.4 341.1Z" fill="#a39786" fill-opacity="0.5"/>
+<path d="M256 344L268 338L260 354Z" fill="#a39786" fill-opacity="0.35"/>
+<path d="M213.6 331.1L225.6 325.1L217.6 341.1Z" fill="#a39786" fill-opacity="0.5"/>
+<path d="M196 300L208 294L200 310Z" fill="#a39786" fill-opacity="0.35"/>
+<path d="M213.6 268.9L225.6 262.9L217.6 278.9Z" fill="#a39786" fill-opacity="0.5"/>
+<path d="M256 256L268 250L260 266Z" fill="#a39786" fill-opacity="0.35"/>
+<path d="M298.4 268.9L310.4 262.9L302.4 278.9Z" fill="#a39786" fill-opacity="0.5"/>
+</svg>
